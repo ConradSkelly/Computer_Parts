@@ -5,6 +5,16 @@
 </title>
 <head>
     <h1>Computer parts and their funtions</h1>
+    <script>
+        function init() {
+        var loc = window.location.href;
+        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+        }
+        window.onload = init;
+    </script>
 </head>
 <body>
     <header>
@@ -28,6 +38,14 @@
         <p></p> <!-- answer the question on the line above-->
     </article>
     <footer>
-        
+        <a id="vLink1" href="http://validator.w3.org/check?uri=https://ict.gctaa.net/sections/webdev/resources/min.html">
+            <strong> HTML </strong> 
+            Valid!
+        </a>
+          |  
+        <a id="vLink2" href="http://jigsaw.w3.org/css-validator/validator?uri=https://ict.gctaa.net/sections/webdev/resources/min.html?profile=css3">
+            <strong> CSS </strong> 
+            Valid!
+        </a>   
     </footer>
 </body>
