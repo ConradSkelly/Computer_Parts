@@ -9,18 +9,8 @@
     <meta name="Description" content="Sample Website for learning HTML5 and CSS3" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>uCorp</title>
-
-    <h1>Computer parts and their funtions</h1>
-    <script>
-        function init() {
-        var loc = window.location.href;
-        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
-        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
-        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
-        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
-        }
-        window.onload = init;
-    </script>
+    
+    <h1>how dose a computer work?</h1>
 </head>
 <body>
     <header>
@@ -39,7 +29,7 @@
 
     <article>
         <h1>What is a computer?</h1>
-        <p>a machine that can store and process information.</p>
+        <p>Computers might seem complcated, but really they are quite simple. a computer is just machine that can store and process information.</p>
     </article>
 
     <article>
@@ -57,8 +47,16 @@
         <source src="Media/bootup.mp3">
     </audio>
 
-
-
+    <script>
+        function init() {
+        var loc = window.location.href;
+        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+        }
+        window.onload = init;
+    </script>
 
 
     <footer>
