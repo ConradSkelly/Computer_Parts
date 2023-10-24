@@ -69,8 +69,61 @@
         }
         window.onload = init;
     </script>
-
-
+</head>
+<body>
+    <header>
+        <img src="images/open_computer.jpeg" alt="open_computer" height="250" width="300"/>
+    </header>
+    
+    <nav>
+        <ul>
+            <li> Computer Parts </li>
+            <ul>
+            <li><a href="Computer_Parts/motherboard.html">motherboards</a></li>
+            <li><a href="Computer_Parts/chips.html">Computer chips</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <section>
+        <style>
+            article{
+                color: burlywood;
+                text-shadow: 0 5px 0 black;
+            }
+            nav {
+                background: #d8d8d8;
+                font-weight: bold;
+                float: left;
+                height: 420px;
+                padding-right: 24px;
+                margin-right: 10px;
+            }
+            section {
+                background-image: url("images/motherboard.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+        <article>
+            <style>
+                h1~p{
+                    font-style: italic;
+                }
+            </style>
+            <h1>What is a computer?</h1>
+            <p>A thing that processes stuff.</p>
+        </article>
+        <article>
+            <h1>Why is it important to know about computers and thier parts?</h1>
+            <p>To know how the parts of a computer make it work.</p>
+        </article>
+    </section>
+    <video width="360" height="270" controls="controls">
+        <source src="Media/bootupvid.mp4">
+    </video>
+    <audio controls="controls">
+        <source src="Media/bootup.mp3">
+    </audio>
     <footer>
         <a id="vLink1" href="http://validator.w3.org/check?uri=https://conradskelly.github.io/Computer_Parts/index.html">
             <strong> HTML </strong> 
