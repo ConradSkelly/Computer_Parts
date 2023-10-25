@@ -59,3 +59,10 @@ nav {
     width:25%;
     height:280px;
 }
+section{
+    color: burlywood;
+    box-shadow: 2px 2px 3px;
+    background: url(images/motherboard.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
