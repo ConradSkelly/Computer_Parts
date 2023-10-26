@@ -5,8 +5,11 @@ body{
 }
 h1{
     font-size: 140%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: arial, helvetica, geneva, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
+
 p{
     font-size: 110%;
     width: 600px;
@@ -25,11 +28,6 @@ footer {
     border-top-color: #d8d8d8;
     margin-top: 0;
     padding: 0;
-}
-h1 {
-    font-family: arial, helvetica, geneva, sans-serif;
-    margin-top: 5px;
-    margin-bottom: 0px;
 }
 nav {
     background: #d8d8d8;
@@ -65,4 +63,8 @@ section{
     background: url(images/motherboard.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+h2~p{
+    font-style: italic;
 }
