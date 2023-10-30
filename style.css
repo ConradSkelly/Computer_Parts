@@ -4,7 +4,7 @@ body{
     background-color: #078cad;
 }
 h1{
-    text-shadow: 3px 3px 3xp #888888
+    text-shadow: 3px 3px 3px #888888;
     font-size: 140%;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -33,6 +33,11 @@ footer {
     margin-top: 0;
     padding: 0;
 }
+.floatright {
+    float: right;
+    clear: right;
+    margin: 10px;
+}
 nav {
     background: #d8d8d8;
     font-weight: bold;
@@ -40,11 +45,6 @@ nav {
     height: 610px;
     padding-right: 24px;
     margin-right: 10px;
-}
-.floatright {
-    float: right;
-    clear: right;
-    margin: 10px;
 }
 .navlinks{
     display: block;
@@ -55,29 +55,21 @@ nav {
     text-decoration: none;
     box-shadow: 5px 5px 5px #888888;
 }
-#leftbox {
-    float:left; 
-    width:25%;
-    height:280px;
-}
-#middlebox{
-    float:left; 
-    width:50%;
-    height:280px;
+
+section{
+    color: #000000;
+    text-shadow: 1px 1px 5px white;
+    font-weight: 9000;
+    background: url(./images/circuitbg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #rightbox{
     float:right;
     width:25%;
     height:280px;
 }
-section{
-    color: burlywood;
-    box-shadow: 2px 2px 3px;
-    background: url(images/motherboard.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 h2~p{
     font-style: italic;
+    font-size: 20px;
 }
