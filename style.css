@@ -1,11 +1,11 @@
 body{
-    font-size: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 85%;
+    font-family: oregonfont;
     background-color: #078cad;
 }
 h1{
+    text-shadow: 3px 3px 3xp #888888
     font-size: 140%;
-    font-family: arial, helvetica, geneva, sans-serif;
     margin-top: 5px;
     margin-bottom: 0px;
 }
@@ -13,6 +13,10 @@ h1{
 p{
     font-size: 110%;
     width: 600px;
+}
+@font-face{
+    font-family: oregonfont;
+    src: url(./Media/Oregon_LDO/Oregon_LDO_Book.ttf);
 }
 article {
     padding: 10px;
