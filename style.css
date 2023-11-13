@@ -8,6 +8,7 @@ h1{
     font-size: 140%;
     margin-top: 5px;
     margin-bottom: 0px;
+    transition-duration: 3s;
 }
 
 p{
@@ -89,4 +90,10 @@ h2~p{
 #sound-rotate {
     -webkit-transform: rotateY(180deg); 
     transform: rotateY(180deg);
+}
+
+h1:hover {
+    width: 250px;
+    height: 150%;
+    transform: rotate(360deg);
 }
