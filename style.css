@@ -78,4 +78,10 @@ h2~p{
     -ms-transform: rotate(315deg); 
     -webkit-transform: rotate(345deg); 
     transform: rotate(345deg);
+
+
+}
+
+#div-box{
+    margin: auto;
 }
