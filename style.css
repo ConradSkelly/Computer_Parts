@@ -64,6 +64,8 @@ section{
     background: url(./images/circuitbg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    resize: both;
+    overflow: auto;
 }
 #rightbox{
     float:right;
