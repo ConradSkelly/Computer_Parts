@@ -64,8 +64,33 @@ section{
     background: url(./images/circuitbg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    resize: both;
-    overflow: auto;
+}
+#drop-menu{
+    width: 150px;
+    cursor: pointer;
+    display: block;
+    border: 2px solid #a1a1a1;
+    padding: 5px;
+    height: 20px;
+    max-height: 20px;
+    background: #add5e6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    font-family: oregonfont;
+    font-weight: bold;
+    font-size: 85%;
+    color: #0000a0;
+}
+.sub-menu li{
+    list-style-type: none;
+    display: block;
+    border: 2px solid #add5e6;
+    padding: 2px 5px;
+    background: #d8d8d8;
+    border-radius: 5px;
+}
+.sub-menu li:hover{
+    border: 2px solid #bababa;
 }
 #rightbox{
     float:right;
@@ -90,6 +115,8 @@ h2~p{
 }
 
 #sound-rotate {
+    z-index: -1;
+    position: relative;
     -webkit-transform: rotateY(180deg); 
     transform: rotateY(180deg);
 }
