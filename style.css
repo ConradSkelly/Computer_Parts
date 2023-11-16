@@ -45,7 +45,14 @@ nav {
     height: 610px;
     padding-right: 24px;
     margin-right: 10px;
+    padding: 2px 5px;
+    background: #b6e4f4;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #888888;
 }
+
+
 .navlinks{
     display: block;
     border: 2px solid #a1a1a1;
@@ -126,4 +133,36 @@ h1:hover {
     height: 150%;
     transform: rotate(360deg);
     transition-duration: 3s;
+}
+
+@keyframes logoanimation {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 200px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#animation {
+    position: relative;
+    /* Safari and Chrome: */
+    -webkit-animation-name: logoanimation;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-name: logoanimation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
 }
